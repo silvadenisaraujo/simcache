@@ -3,7 +3,7 @@
 import asyncio
 import time
 import pytest
-from simcache.cache import SimilarityCache
+from similaritycache.cache import SimilarityCache
 
 
 class TestSimilaritySearch:
