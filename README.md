@@ -1,4 +1,4 @@
-# SimCache
+# similaritycache
 
 A powerful in-memory similarity cache with LRU eviction and TTL expiration, designed for applications that need to cache and retrieve values based on semantic similarity of keys.
 
@@ -32,7 +32,7 @@ uv add similaritycache
 
 ```python
 import asyncio
-from simcache import SimilarityCache
+from similaritycache import SimilarityCache
 
 async def main():
     # Create a cache with similarity threshold of 0.8
@@ -89,7 +89,7 @@ asyncio.run(main())
 
 ```python
 import asyncio
-from simcache import SimilarityCache
+from similaritycache import SimilarityCache
 
 async def basic_example():
     cache = SimilarityCache(threshold=0.7)
@@ -110,7 +110,7 @@ asyncio.run(basic_example())
 
 ```python
 import asyncio
-from simcache import SimilarityCache
+from similaritycache import SimilarityCache
 
 async def similarity_example():
     cache = SimilarityCache(threshold=0.7)
@@ -135,7 +135,7 @@ asyncio.run(similarity_example())
 
 ```python
 import asyncio
-from simcache import SimilarityCache
+from similaritycache import SimilarityCache
 
 async def lru_example():
     # Create cache with max size of 2
@@ -162,7 +162,7 @@ asyncio.run(lru_example())
 ```python
 import asyncio
 import time
-from simcache import SimilarityCache
+from similaritycache import SimilarityCache
 
 async def ttl_example():
     # Create cache with 1 second TTL
@@ -184,7 +184,7 @@ asyncio.run(ttl_example())
 ```python
 import asyncio
 import time
-from simcache import SimilarityCache
+from similaritycache import SimilarityCache
 
 async def per_item_ttl_example():
     # Cache with long default TTL
@@ -206,7 +206,7 @@ asyncio.run(per_item_ttl_example())
 
 ```python
 import asyncio
-from simcache import SimilarityCache
+from similaritycache import SimilarityCache
 
 async def custom_model_example():
     # Use a different embedding model
@@ -226,7 +226,7 @@ asyncio.run(custom_model_example())
 
 ```python
 import asyncio
-from simcache import SimilarityCache
+from similaritycache import SimilarityCache
 
 async def cache_management_example():
     cache = SimilarityCache(threshold=0.8)

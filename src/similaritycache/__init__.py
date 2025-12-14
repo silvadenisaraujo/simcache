@@ -1,4 +1,4 @@
-from simcache.cache import SimilarityCache
+from similaritycache.cache import SimilarityCache
 
 __all__ = ["SimilarityCache"]
 
