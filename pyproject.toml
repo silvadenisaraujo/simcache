@@ -1,6 +1,6 @@
 [project]
 name = "similaritycache"
-version = "0.1.0"
+version = "0.1.1"
 description = "In-memory similarity cache"
 readme = "README.md"
 authors = [
